@@ -35,6 +35,8 @@ const fetchData = async (id) => {
     }
 } 
 
+
+
 const pintarCard = pokemon => {
     const flex = document.querySelector('.flex')
     const template = document.getElementById('card').content
